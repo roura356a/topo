@@ -1,0 +1,3 @@
+#!/bin/sh
+
+ssh -R $CONTAINER.$SERVICE:$REMOTE_PORT:$CONTAINER:$HOST_PORT -p $SERVICE_PORT -o StrictHostKeyChecking=no $SERVICE
