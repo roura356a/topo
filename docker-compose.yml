@@ -1,0 +1,16 @@
+version: '3.6'
+
+services:
+  httptunnel:
+    image: roura/topo:client
+    network_mode: bridge
+    container_name: httptunnel
+    tty: true
+    stdin_open: true
+    command: sh connect
+    links:
+    - web
+  web:
+    image: php:apache
+    network_mode: bridge
+    container_name: website
