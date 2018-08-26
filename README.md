@@ -15,4 +15,4 @@ The server (`docker pull roura/topo:server`) starts a `serveo` tunnel, you only 
 The client (`docker pull roura/topo:client`) works as a docker container, it can be easily chunked in a `docker-compose.yml` file so it works with an existing project of your own (example provided in this repo).
 
 ## I'm stuck, I don't understand anything
-I know. I'm pretty bad with documentation. Approach me at Twitter ([@roura356a](https://twitter.com/roura356a)) and ask me anything =)
+I know. I'm pretty bad with documentation. Approach me at Twitter ([@roura356a](https://twitter.com/roura356a)) and ask me anything!
