@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/serveo -private_key_path=/serveo_key -port=$SERVICE_PORT -domain=$SERVICE
