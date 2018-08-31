@@ -1,0 +1,15 @@
+version: '3.6'
+
+services:
+  proxy:
+    build:
+      context: .
+    network_mode: bridge
+    container_name: tunnelserver
+    command: sh start
+    restart: on-failure
+    ports:
+    - 80:80
+    - 443:443
+    environment:
+      SERVICE: your.domain-name.here
