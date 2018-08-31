@@ -8,6 +8,8 @@ services:
     tty: true
     stdin_open: true
     command: sh connect
+    environment:
+      SERVICE: your.domain-name.here
     links:
     - web
   web:
