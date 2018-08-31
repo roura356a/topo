@@ -8,7 +8,7 @@ This project exists to make Reverse SSH Tunneling easy to expose a local website
 This project relies on `serveo`, which is great. So I decided to make the _Host it yourself_ part easier.
 
 ## Stuff in this project
-There is 2 docker images to work with, one is `server` and the other is `client`. They are meant to work together, one acting as server and other as client (it was hard to guess, I know).
+There are 2 docker images to work with, one is `server` and the other is `client`. They are meant to work together, one acting as server and other as client (it was hard to guess, I know).
 
 ### Server
 The server (`docker pull roura/topo:server`) starts a `serveo` tunnel, you only need to provide a working domain (obvious). From there, just follow the instructions at [serveo.net](https://serveo.net/).
