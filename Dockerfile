@@ -10,3 +10,5 @@ ENV SERVICE serveo.net
 RUN apk add --no-cache openssh
 
 COPY connect /
+
+CMD ["sh", "connect"]
